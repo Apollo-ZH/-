@@ -1,0 +1,59 @@
+.new .top{
+    background: url(../img/title-1.png)no-repeat top center;
+    width: 1315px;
+    height: 251px;
+    margin: 0 auto;
+    margin-top: -230px;
+    position: relative;
+}
+.new .new-on{
+    width:1000px;
+    height: 250px;
+    margin: 0 auto;
+    background: url(../img/line.png)no-repeat right;
+    /* border: 1px red solid; */
+}
+.new .new-on ul li{
+    float: left;
+    width: 33.333%;
+    height: 250px;
+    padding: 10px 35px;
+    background: url(../img/line.png)no-repeat;
+    z-index: 1;
+}
+.new .new-on .time{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+}
+.new .new-on .title{
+    display: block;
+    padding: 15px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.new .new-on .nav{
+    font-size: 12px;
+    color: #767676;
+    line-height: 20px;
+    height: 140px;
+    overflow: hidden;
+}
+.new .new-dowm{
+    background: url(../img/taihedian.jpg)no-repeat center top;  
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    position: relative;
+}
+.new .new-dowm li{
+    float: left;
+    width: 33.333%;
+}
+.new .new-dowm .title{
+    text-align: center;
+    padding: 40px 0;
+}

@@ -1,0 +1,113 @@
+.foot{
+    background: url(../img/footer_bg.png)no-repeat center top;
+    background-color: #960300;
+    padding-top: 180px;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.foot .nav{
+    width:1000px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+    
+}
+.foot .nav .house{
+    background: url(../img/bottomhouse.png)no-repeat bottom;
+    position: absolute;
+    height: 280px;
+    width: 250px;
+    right: 0;
+    bottom: 0;
+}
+.foot .nav .logo{
+    background: url(../img/icon.png)no-repeat right top;
+    width: 72px;
+    height: 86px;
+    float: left;
+}
+.foot .nav .about{
+    float: left;
+    padding-left: 20px;
+    font-size: 8px;
+}
+.foot .nav .about .oter{
+    width:120px;
+    height: 27px;
+    padding-left: 10px;
+    line-height: 27px;
+    background: url(../img/icon.png)no-repeat 105px -319px;
+    background-color: #a81b18;
+    color: #e8918f;
+    position: relative;
+}
+.foot .nav .about .oter ul{
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    width: 200px;
+    background-color: #c30;
+    color: #fff;
+    display: none;
+}
+.foot .nav .about .oter:hover ul{
+    display: block;
+}
+.foot .nav .about .oter:hover{
+    background-color: #c30;
+}
+.foot .nav .about .oter li{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.foot .nav .about .oter li:hover{
+    background-color: #bc9d45;
+}
+.foot .nav .about .oter  a:hover{
+    color: white;
+}
+.foot .nav .about .yinsi{
+    padding-top: 15px;
+    color: #d1b97e;
+}
+.foot .nav .about .yinsi a{
+    padding: 0 5px;
+}
+.foot .nav .about .yinsi a:hover{
+    color: #fc0;
+}
+.foot .nav .about .jianse{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: #d2615f;
+}
+.ad{
+    background: url(../img/adv.png)no-repeat right;
+    position: fixed;
+    width: 226px;
+    height: 165px;
+    right: 10px;
+    top: 50%;
+    margin-top: -82.5px;
+    z-index: 99;
+}
+.up{
+    background: url(../img/top.png)no-repeat right;
+    width: 61px;
+    height: 61px;
+    position: fixed;
+    right: 10px;
+    top: 75%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.up:hover{
+    opacity: 1;
+}
+html{
+    scroll-behavior: smooth;
+}

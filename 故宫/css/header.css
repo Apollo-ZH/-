@@ -1,0 +1,70 @@
+body{
+    /* background-color: lightsalmon; */
+}
+.header{
+    background: url(../img/topnav_bg.png)no-repeat center top;
+    height: 113px;
+    width: 990px;
+    margin: 0 auto;
+    /* border: 1px red solid; */
+    position: relative;
+    z-index: 1;
+}
+.header .logo{
+    background: url(../img/logo.png)no-repeat center top ;
+    width: 73px;
+    height: 94px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: -55px;
+    margin-right: -36.5px;
+    overflow: hidden;
+}
+h1{
+    display: none;
+}
+.header .nav{
+    margin: 27px 100px;
+}
+.header .nav.nav-left {
+    float: left;
+
+}
+.header .nav.nav-right{
+    float: right;
+    /* display: block; */
+  
+}
+.header .nav li{
+    float: left;
+    padding: 0 14px ;
+    background: url(../img/icon.png)no-repeat;
+    background-position: 2px 8px;
+}
+.header .bell{
+    position: absolute;
+    right: 36px;
+    top: 50px;
+    transform-origin: top center;
+    transform: rotate(10deg);
+    animation: swing 2s infinite;
+}
+@keyframes swing{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+.banner{
+    transform: translateY(-113px);
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+.map{
+    background: url(../img/title-2.png)no-repeat center 35px,
+    url(../img/taihe.png)no-repeat center top;
+    height: 869px; 
+    position: relative;
+}
+.map .teacher{
+    background: url(../img/teacher.png)no-repeat;
+    width: 141px;
+    height: 150.8px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-right:  -75.4px;
+    margin-top:  -70.5px;
+}
+.map .teacher.teacher-left{
+    background-position: 0 -158px;
+}
+.map .news li{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-right: -75px;
+}
